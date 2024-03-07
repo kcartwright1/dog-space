@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-export default function LoginPage({ onLogin }) {
+export default function LoginPage({ params }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
