@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { SignInButton } from "@clerk/nextjs";
 
 export default function HomePage() {
@@ -8,7 +10,7 @@ export default function HomePage() {
 
       <div className="container">
         <div className="rwd-content-bodyTop">
-          <img src="dogs-removebg-preview (3).png"></img>
+          <Image src="dogs-removebg-preview (3).png" />
         </div>
         <div className="rwd-content-bodyBottom">
           <div>

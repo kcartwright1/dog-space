@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-function LoginPage({ onLogin }) {
+export default function LoginPage({ onLogin }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -34,5 +34,3 @@ function LoginPage({ onLogin }) {
     </form>
   );
 }
-
-export default LoginPage;
