@@ -1,5 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
-import { light } from "@clerk/themes";
+import { dark } from "@clerk/themes";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider
       appearance={{
-        baseTheme: light,
+        baseTheme: dark,
       }}
     >
       <html lang="en">
